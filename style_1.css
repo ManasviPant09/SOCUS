@@ -25,7 +25,6 @@ body {
 	max-width: 100%;
 	min-height: 480px;
 }
-
 .container .input{
 	border: 0;
 	outline: none;
@@ -49,6 +48,9 @@ h3{
 	font-size: 25px;
 	color: #f6f5f7;
 
+}
+a{
+	color: #eee;
 }
 span {
 	font-size: 20px;
