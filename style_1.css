@@ -14,8 +14,8 @@ body {
 	margin: -20px 0 50px;
 }
 .container {
-	background: -webkit-linear-gradient(to right, #FF416C,#FF676D);
-	background: linear-gradient(to right, #FF416C,#FF676D);
+	background: -webkit-linear-gradient(to right,#fceabb,#f8b500);
+	background: linear-gradient(to right, #fceabb,#f8b500);
 	border-radius: 10px;
   	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
 			0 10px 10px rgba(0,0,0,0.22);
@@ -34,30 +34,30 @@ body {
 h1 {
 	font-weight: bolder;
 	margin: 50px;
-	color: #f6f5f7;
+	color: black;
 }
 h2 {
 	font-size: 20px;
 	font-weight: bold;
 	font-size: 25px;
-	color: #f6f5f7;
+	color: black;
 }
 h3{
 	font-size: 20px;
 	font-weight: bold;
 	font-size: 25px;
-	color: #f6f5f7;
+	color: black;
 
 }
 a{
-	color: #eee;
+	color: black;
 }
-span {
+h4{
 	font-size: 20px;
 	font-weight: bold;
-	margin: 10px;
+	margin: 0;
 	font-size: large;
-	color: #f6f5f7;
+	color: black;
 	margin: 20px;
 }
 .box{
@@ -99,16 +99,38 @@ span {
 	height: 100%;
 	text-align: center;
 	line-height: 50px;
-	color: #FF676D;
+	color: black;
 	font-size: 20px;
 	border-radius: 25px;
   }
   #check:checked ~ .search-box .icon{
-	background: #FF676D;
+	background: black;
 	color: #FFF;
 	width: 50px;
 	border-radius: 0 25px 25px 0;
   }
   #check{
 	display: none;
+  }
+  .image-1{
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+	border-radius: 8px;
+	float:left;
+	margin-left: 300px;
+	margin-right: 300px;
+  }
+  .image-2 {
+	border-radius: 4px;
+	padding: 5px;
+	float:left;
+	width: 150px;
+	border-radius: 8px;
+  }
+  .image-3 {
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+	border-radius: 8px;
   }
